@@ -18,6 +18,7 @@ uid = message.from_user.id
 @app.message_handler(commands=["start"])
 def starting(message):
   mci = message.chat.id
+  app.send_message(mci, "hello!")
   
 
 
