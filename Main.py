@@ -18,7 +18,7 @@ def starting(message):
   mci = message.chat.id
   uid = message.from_user.id
   app.send_message(mci, "hello!")
-  file.write("{now} :- /start:::: //{uid}// Hello! \n")
+  file.write("{datetime.now()} :- /start:::: //{uid}// Hello! \n")
   
 
 
